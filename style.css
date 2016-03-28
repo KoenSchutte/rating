@@ -1,0 +1,20 @@
+body{
+    font-family: sans-serif;
+}
+
+.leeg{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(http://bla.hosts.ma-cloud.nl/wp-content/uploads/2015/02/grijzeSter.png);
+}
+.leeg:hover{
+    cursor: pointer;
+    background-image: url(http://bla.hosts.ma-cloud.nl/wp-content/uploads/2015/02/geleSter.png);
+}
+.leeg span {
+    display: inline-block;
+    width: 0px;
+    height: 32px;
+    background-image: url(geleSter.png);
+}
